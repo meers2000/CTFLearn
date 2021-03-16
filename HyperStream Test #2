@@ -1,0 +1,16 @@
+Question: 
+I love the smell of bacon in the morning! ABAAAABABAABBABBAABBAABAAAAAABAAAAAAAABAABBABABBAAAAABBABBABABBAABAABABABBAABBABBAABB
+
+
+Logic:
+There's a clear hint "Bacon". This will immediately remind you of "Bacon Cipher"
+
+
+Steps:
+1- Go to CyberChef and choose Bacon cipher decode
+2- Decode the given cipher with A/B translation.
+3- You will get your flag in the output!
+
+
+
+Flag: ILOUEBACONDONTYOU
