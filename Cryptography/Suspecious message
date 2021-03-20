@@ -1,0 +1,19 @@
+Question: 
+Hello! My friend Fari send me this suspecious message: 'MQDzqdor{Ix4Oa41W_1F_B00h_m1YlqPpPP}' and photo.png. Help me decrypt this!
+
+
+Logic:
+We have been given 2 things.
+1- The PNG format image.
+2- An encrypted message.
+If you look carefully, "Fari" gives you the hint "Fair". What ciphers do you know of having the word "Fair" in it?
+PLayfair cipher will come to your mind! 
+
+
+Steps:
+1- Take the suspicious message and decrypt it using playfair cipher.
+2- You have been given a key to decrypt this. Where you ask? In the image.
+3- Type out all the alphabets given in the image: "QWERTYUIO....". This is your key!
+4- You get your flag after decryption!
+
+Flag: CTFLEARN{PL4YF41R_1S_C00L_C1PHERRRR}
