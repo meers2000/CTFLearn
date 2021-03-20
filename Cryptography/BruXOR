@@ -1,6 +1,7 @@
 Question: There is a technique called bruteforce. Message: q{vpln'bH_varHuebcrqxetrHOXEj No key! Just brute .. brute .. brute ... :D
 
 
+
 Logic:
 The name of the challenge itself gives the biggest hint: 'BruXOR'.
 It tells us there is no key and we just got to do brute forcing. Since it says XOR, we can try XOR Brute Force tool
