@@ -1,0 +1,17 @@
+Question: Find the flag! Simple forensics challenge to get started with.
+
+Logic: 
+It is said its a simple challenge. One of the first things that come to mind for forensics is Hex extractor. 
+Always try out different tools and follow your instincts!
+
+
+Steps:
+1- Head over to CyberChef
+2-  Use the HEX content tool to extract
+3- Look closely, you have your flag in the output!
+
+
+
+
+
+Flag: CTFlearn{ILoveJakarta}
