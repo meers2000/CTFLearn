@@ -1,0 +1,16 @@
+Question:
+Think the flag is somewhere in there. Would you help me find it? https://mega.nz/#!OHohCbTa!wbg60PARf4u6E6juuvK9-aDRe_bgEL937VO01EImM7c
+
+
+Logic:
+They have given an image and clearly said the flag is hidden in it.
+We know that it belongs to the Forensics category, hence the easiest thing to do is first open it with your text editor and see what happens.
+
+Steps:
+1- Download the given image.
+2- Open it with text editor/Notepad+ etc.
+3- Search for the word "Flag"
+4- You have your flag!
+
+
+Flag: flag{wow!_data_is_cool}
