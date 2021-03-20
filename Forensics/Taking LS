@@ -1,0 +1,18 @@
+Question: 
+Just take the Ls. Check out this zip file and I be the flag will remain hidden. https://mega.nz/#!mCgBjZgB!_FtmAm8s_mpsHr7KWv8GYUzhbThNn0I8cHMBi4fJQp8
+
+
+Logic:
+They have told to check the zip file out. Once we open it, we can get a lead.
+
+
+
+Steps:
+1- Download the zip file. You will see a PDF named "Flag" and one document name "password"
+2- For opening the flag pdf, they require a password. So obviously we will go to the password document.
+3- Take the password from that document and input it as the password in the PDF file.
+4- You have unlocked your flag!
+
+
+
+Flag: ABCTF{T3Rm1n4l_is_C00l
