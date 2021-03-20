@@ -1,0 +1,18 @@
+Question:
+If only the password were in the image?
+https://mega.nz/#!SDpF0aYC!fkkhBJuBBtBKGsLTDiF2NuLihP2WRd97Iynd3PhWqRw You could really ‘own’ it with exif.
+
+
+
+Logic:
+The name of the challenge itself is "EXIF". This is a direct hint to extract the given image using the exif tool.
+
+
+Steps:
+1- Go to CyberChef
+2- Select the extract EXIF tool
+3- Input your image
+4- Look closely in the output and you have the flag!
+
+
+Flag: flag{3l1t3_3x1f_4uth0r1ty_dud3br0}
