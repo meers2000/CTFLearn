@@ -1,0 +1,17 @@
+Question:
+The keyword is hexadecimal, and removing an useless H.E.H.U.H.E. from the flag. The flag is in the format CTFlearn{*}
+
+
+Logic-
+We have to somehow extract the file, and then remove the "H"'s from the flag. There are several ways to do this.
+
+
+Steps-
+1- Go over to your linux command prompt.
+2- Use the command "strings" to extract the strings from the file. [ strings file ]
+3- You will see a list of extracted strings. Scroll until you find the flag.
+4- They have told in the questions the remove H so we'll remove all the H's.
+5- You now have your final flag!
+
+
+Flag: CTFlearn{fl4ggyfl4g}
