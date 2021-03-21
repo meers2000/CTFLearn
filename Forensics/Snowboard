@@ -1,0 +1,21 @@
+Question: Find the flag in the jpeg file. Good Luck!
+
+
+
+Logic:
+Its clearly stated that it is a JPEG file. To extract the tags from jpeg files, we can use the command "file <imagename>". We can try this and see what happens next.
+
+
+
+Steps:
+1- Go over to your command prompt and use the command " file <imagename>"
+2- You will see a list of all the tags in the image.
+3- There's a clear given flag but when you put that as the solution on CTFLearn, it says its the wrong flag. This is because this is not the actual flag. Its just a bluff.
+4- But there's a base64 string in one of the tags. This could be our flag.
+5- Enter the command " echo <the_string> | base64 -d
+6- You now have your flag!
+
+
+
+
+Flag: CTFlearn{SkiBanff}
