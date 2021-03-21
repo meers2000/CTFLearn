@@ -1,0 +1,19 @@
+Question:
+The vignere cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers based on the letters of a keyword.<br />
+I’m not sure what this means, but it was left lying around: blorpy
+gwox{RgqssihYspOntqpxs}
+
+
+Logic:
+Its pretty obvious that the gibberish given is encoded using Vigenere Cipher. 
+They have also given a string "blorpy". This could be the key.
+
+
+Steps:
+1- Head over to CyberChef and select the 'Vigenere Cipher' tool
+2- Give the input as the cipher given in the question and key as the given string "blorpy"
+3- When you see the output, you will get your flag!
+
+
+
+Flag: flag{CiphersAreAwesome}
