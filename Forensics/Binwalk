@@ -1,0 +1,21 @@
+Question: 
+Here is a file with another file hidden inside it. 
+Can you extract it? https://mega.nz/#!qbpUTYiK!-deNdQJxsQS8bTSMxeUOtpEclCI-zpK7tbJiKV0tXYY
+
+
+Logic:
+First find out the image type and details. You'll see that this is actually a PNG image and has another PNG image hidden in it.
+Now we have to extract that hidden image.
+
+
+Steps:
+1- To find out the hidden file, use the binwalk command.
+ "binwalk -e <imagename>"  [-e for extract]
+2- Now, to extract all the files we can use the command:
+ "binwalk --extract --dd=".*" <image name>" [Extracts type signatures, give the files an extension of ext, and executes cmd]
+3- You will see the extracted folder (either on desktop or in whichever directory you had your image)
+4- Open the image in this extracted folder and you have your flag!
+
+
+
+Flag: ABCTF{b1nw4lk_is_us3ful}
