@@ -1,0 +1,25 @@
+Question:
+Where do robots find what pages are on a website?
+Hint:
+What does disallow tell a robot?
+
+
+Logic:
+It says about "robots" on a webpage. Maybe we can find the robots.txt page of CTFLearn and find for some hidden clue.
+
+
+
+Steps:
+1- Search for the robots.txt page of CTFLearn. The URL will be:
+https://ctflearn.com/robots.txt
+
+2- You can see "Disallow: /70r3hnanldfspufdsoifnlds.html". 
+This now gives us some lead.
+
+3- Try out entering the string in "Disallow" at the end of the URL.
+-> https://ctflearn.com/70r3hnanldfspufdsoifnlds.html
+
+4- You now have your flag!
+
+
+Flag: abctf{r0b0ts_4r3_th3_futur3}
