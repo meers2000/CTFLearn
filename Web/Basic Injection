@@ -1,0 +1,29 @@
+Question: 
+See if you can leak the whole database. 
+The flag is in there somwhere: 
+https://web.ctflearn.com/web4/
+
+
+Logic: 
+When we go over to the given URL, we find an input bar that requires something as input. We can guess that after clicking submit, we can get our flag.
+By typing any nonsense, you dont get the output. The name is "Injection", so maybe we can try basic injection commands.
+
+
+
+Steps:
+1- Go to the given URL
+
+2- Type the following in the input bar:
+' OR '1' = '1'
+Reason: This command is designed to pull up the records of the specified username from its table of users. 
+The output of < ' OR '1' > will always give output 1 and hence is true. If its true, it identifies us as authentic and gives us access to the records.
+So by injecting this, we will always get access to the database.
+
+
+3- Click on the submit button
+
+4- When you look at the output, you will spot the flag!
+
+
+
+Flag: CTF{fl4g__giv3r}
