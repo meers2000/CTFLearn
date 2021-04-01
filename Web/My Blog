@@ -1,0 +1,24 @@
+Question:
+Hi, I'm Noxtal! I have hidden a flag somewhere in my Cyberworld (AKA blog)... you may find a good application for your memory. ;)
+Note: This is my real website (thus no deadly bug to exploit here). You might want to read some of my content (writeups, tutorials, and cheatsheets). I would be glad to receive any kind of feedback.
+Click here to access it, have fun checking my blog out! Cheers!
+Hint: replace the flag{} part with CTFlearn{}.
+
+
+
+Logic- 
+The main hint is "application" ..... "memory". Since its a web challenge, we can go to the given url and check the developer tools and see if we get some lead.
+
+
+
+Steps:
+1. Go to the given blog URL
+2. Open the developer tools of that web page.
+3. Under the application column, you'll find different storages.
+4. Open the local storage and search for the storage of noxtal.
+5. You will see the key "flag" and its given is your flag!
+
+
+
+
+Flag: CTFLearn{n7f_l0c4l_570r463_15n7_53cur3_570r463}
