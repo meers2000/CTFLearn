@@ -1,0 +1,26 @@
+Question: 
+The flag used to be there. But then I redacted it. 
+Good Luck. https://mega.nz/#!3CwDFZpJ!Jjr55hfJQJ5-jspnyrnVtqBkMHGJrd6Nn_QqM7iXEuc
+
+
+
+Logic-
+The name of the challenge itself is 'Git....'. So we can first download the zip file and maybe try using different git commands on it.
+
+
+
+
+Steps: 
+1. Go to the given link and download the zip folder
+2. Unzip the folder 
+3. Go over to your command prompt and write the command 'git log -u'
+4. You have your flag!
+
+Note:
+There are many other commands as well which you can use to get the flag.
+
+
+
+
+Flag: flag{protect_your_git}
+
