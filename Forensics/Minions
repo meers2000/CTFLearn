@@ -1,0 +1,25 @@
+Question: 
+Hey! Minions have stolen my flag, encoded it few times in one cipher, and then hidden it somewhere there: 
+https://mega.nz/file/1UBViYgD#kjKISs9pUB4E-1d79166FeX3TiY5VQcHJ_GrcMbaLhg Can you help me? TIP: Decode the flag until you got a sentence.
+
+
+
+
+
+
+Steps:
+1. Go to the given URL and download the image. (Hey_You.png)
+2. Open your command prompt and use the command 'strings Hey_You.png'.
+3. You will get another link, open that and download the next image. (Only_Few_Steps)
+4. Use the binwalk command on this image to search for any hidden files => binwalk --extract --dd=".*." Only_Few_Steps.jpg
+5. Now you will get another image. Use the strings command on it.
+6. Now you have a flag but looks like it is of base 64. So now we need to extract it. (repeatedly because they have mentioned so in the question)
+7. Go over to CyberChef and input this string. 
+8. Decode it repeatedly using 'base64'.
+9. You have your flag!
+
+
+
+
+
+Flag: CTF{M1NI0NS_ARE_C00L}
