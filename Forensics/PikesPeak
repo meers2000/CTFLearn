@@ -1,0 +1,15 @@
+Question: 
+Pay attention to those strings! <image>
+
+
+
+Steps-
+1- Download the given image.
+2- Go over to your Linux command prompt and use the 'strings <imagename>' command.
+3- You will now see there are many flags in the output!
+4- Now pay attention to the question. Check for the actual format of CTFLearn used. It is 'CTFlearn'.
+5- There is only one flag with this beginning. That is your flag!
+
+
+
+Flag: CTFlearn{Gandalf}
