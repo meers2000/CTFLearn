@@ -1,0 +1,18 @@
+Question: 
+Solve the equations embedded in the jpeg to find the flag. 
+Solve this problem before solving my Scope challenge which is worth 100 points.
+
+
+
+Steps:
+1- Go over to CyberChef and insert the image in the input section.
+2- Image data will be extracted in the output.
+3- You will see a flag in the format: CTFlearn{I_Like_Math_x_y}. You will also see 2 math equations in x & y.
+4- Solve both the equations using your elementary math skills and find the values of x and y.
+5- You will get x=2, y=5. Insert these values in the given flag format.
+6- You have your flag!
+
+
+
+
+Flag: CTFlearn{I_Like_Math_2_5}
