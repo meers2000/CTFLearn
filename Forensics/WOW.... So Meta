@@ -1,0 +1,17 @@
+Question: 
+This photo was taken by our target. 
+See what you can find out about him from it. 
+https://mega.nz/#!ifA2QAwQ!WF-S-MtWHugj8lx1QanGG7V91R-S1ng7dDRSV25iFbk
+
+
+
+Steps:
+1. Go to the given link.
+2. Download the image. 
+3. Use the 'strings <imagename>' command on your Linux / OR go over to CyberChef and use 'strings' as recipe.
+4. Search for the flag in the output!
+
+
+
+
+Flag: flag{EEe_x_I_FFf}
