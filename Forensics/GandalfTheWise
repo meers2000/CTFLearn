@@ -1,0 +1,46 @@
+Question: 
+Extract the flag from the Gandalf.jpg file. You may need to write a quick script to solve this.
+
+
+Steps:
+
+1- We can see a "JPG" image. Head over to your Linux command promopt.
+2- Use the "file <imagename>" command to see details.
+3- You can see 3 comments in the output in base64 format.
+4- Lets decode these commands and see what we get.
+
+Comment 1: Q1RGbGVhcm57eG9yX2lzX2lvdXJfZnJpZW5kfQo
+After decoding with base64: CTFlearn{xor_is_iour_friend}
+
+You got a flag! But this is not the correct flag. 
+If its not the correct flag, it could be a hint!
+
+5- It says 'XOR' is your friend. This could mean we need to XOR something. But what? You can see 2 more comments. Maybe it is something to do with that!
+6- Decode the remaining 2 comments using base64.
+
+String 1: xD6kfO2UrE5SnLQ6WgESK4kvD/Y/rDJPXNU45k/p
+O/P after decoding with base64: Ä>¤|í.¬NR.´:Z..+./.ö?¬2O\Õ8æOé
+
+String 2: h2riEIj13iAp29VUPmB+TadtZppdw3AuO7JRiDyU
+O/P after decoding with base64: .jâ..õÞ )ÛÕT>`~M§mf.]Ãp.;²Q.<.
+
+7- Now you have 2 strings. XOR them. You can do this using a tiny script:
+
+string1 = ""
+string2 = ""
+a = string1
+A = base64.b64decode(a)
+b = string2
+B = base64.b64decode(b)
+c = []
+l = len(A)
+i = 0
+while i < l:
+  c.append(chr(A[i] ^ B[i]))
+  i += 1
+print(c)
+
+8- You now have your required flag!
+
+
+Flag: CTFlearn{Gandalf.BilboBaggins}
